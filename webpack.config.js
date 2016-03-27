@@ -9,7 +9,7 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?http://localhost:3000',
         'webpack/hot/only-dev-server',
-        path.resolve(__dirname, './src/main.js')
+        path.resolve(__dirname, './src/Main.js')
     ],
 
     output: {

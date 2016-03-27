@@ -7,7 +7,7 @@ var webpack = require('webpack');
 
 module.exports = {
     entry: [
-        path.resolve(__dirname, './src/main.js')
+        path.resolve(__dirname, './src/Main.js')
     ],
 
     output: {
