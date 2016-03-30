@@ -9,7 +9,7 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?http://localhost:3000',
         'webpack/hot/only-dev-server',
-        path.resolve(__dirname, './src/Main.js')
+        path.resolve(__dirname, './src/Main.jsx')
     ],
 
     output: {
@@ -26,7 +26,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin()
     ],
 
-    modules: {
+    module: {
         loaders: [
             {
                 test: /\.jsx?$/,

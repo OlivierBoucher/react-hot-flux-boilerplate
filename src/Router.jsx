@@ -11,6 +11,7 @@ export default class Router extends Component{
     };
 
     constructor(props) {
+        super(props);
         this.history = props.history || browserHistory;
     }
 
