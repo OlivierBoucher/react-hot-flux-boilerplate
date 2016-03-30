@@ -30,7 +30,7 @@ module.exports = {
         })
     ],
 
-    modules: {
+    module: {
         loaders: [
             {
                 test: /\.jsx?$/,
